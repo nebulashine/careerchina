@@ -622,7 +622,9 @@ ul.media li { float: left; margin: 17px; padding: 0;}
 
 .gallery.type-2 { margin-left: -3%; margin-left: -73px; margin-right: -40px; width: 1020px; }
 .gallery.type-2 > li { width: 300px; margin-right: -7px;margin-left: 45px; float: left; background: none; border-bottom: 1px solid #ffffff; }
+/*
 .gallery.type-2 > li:nth-child(3) div { margin-left: -30px; margin-top: -20px; height: 350px; background: url(../images/p/announcement_bg.png) no-repeat; padding: 25px 35px 20px 60px; text-align: left;}
+*/
 .gallery.type-2 > li:nth-child(3) div p { text-align: left; }
 .gallery.type-2 .desc { float: left; clear: left; }
 .gallery.type-2 + .post-nav { border-top: none; }
@@ -968,7 +970,9 @@ form.search input[type="submit"]:active {}
 /* header > logo */
 #header h1 { float: left; margin: 0 0 -80px 0; height: 80px; padding: 0; width: 300px; position: relative; z-index: 1000;}
 #careerchina { font-size: 13px; color:  #262626; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_hor.png) 0 0 no-repeat;padding: 50px 0 0 18px; display: block; margin-top: 13px;}
+/*
 #acsss { font-size: 13px; color:  #ae1217; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_acsss.png) 0 0 no-repeat;padding: 50px 0 0 15px; display: block; margin-top: 13px; margin-left: 120px; }
+*/
 #header h1 span { font-weight: bold; }
 
 /* header > nav */

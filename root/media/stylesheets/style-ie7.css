@@ -89,4 +89,6 @@ form.search input[type="submit"] { right: 30px !important; top: 43px; }
 
 #header h1 { float: left; margin: 0 0 -80px 0; height: 80px; padding: 0; width: 200px; position: relative; z-index: 1000;}
 #careerchina { font-size: 13px; color:  #262626; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_hor.png) 0 0 no-repeat;padding: 50px 0 0 18px; display: block; margin-top: 13px;}
+/*
 #acsss { font-size: 13px; color:  #ae1217; text-decoration: none; line-height: 1em;  background: url(../images/p/logo_acsss.png) 0 0 no-repeat;padding: 50px 0 0 15px; display: block; margin-top: 13px; margin-left: -85px; }
+*/
