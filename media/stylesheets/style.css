@@ -450,15 +450,15 @@ p .button { margin-top: 20px; }
 
 .button.default-2 span { background-color: #e2e2e2; color: #212121;}
 
-.button.type-1 span { background-color: #a32f31;}
-.button.type-2 span { background-color: #e2590e}
-.button.type-3 span { background-color: #d9007b}
-.button.type-4 span { background-color: #8f1bb5}
-.button.type-5 span { background-color: #2766a8}
-.button.type-6 span { background-color: #2ca8a8}
-.button.type-7 span { background-color: #519834}
-.button.type-8 span { background-color: #d0b20d}
-.button.type-9 span { background-color: #111}
+.button.type-1 span { background-color: #a32f31;} /*red*/
+.button.type-2 span { background-color: #e2590e} /*orange*/ 
+.button.type-3 span { background-color: #d9007b} /**/
+.button.type-4 span { background-color: #8f1bb5} /*purple*/
+.button.type-5 span { background-color: #2766a8} /*blue*/
+.button.type-6 span { background-color: #2ca8a8} /*green - blue*/
+.button.type-7 span { background-color: #519834} /*green*/
+.button.type-8 span { background-color: #d0b20d} /*yellow*/
+.button.type-9 span { background-color: #111} /*black*/
 
 /* NEWS */
 .news,
@@ -626,6 +626,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
   max-width: 300px;
   padding: 19px 29px 29px;
   margin: 0 auto 20px;
+/*
   border: 1px solid #e5e5e5;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
@@ -633,6 +634,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
           box-shadow: 0 1px 2px rgba(0,0,0,.05);
+*/
 }
 
 .blue {
@@ -677,7 +679,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
   padding: 7px 9px;
 }
 .form-signin h1{
-  color:#ffffff;
+  color:#2766a8;
 };
 
 
