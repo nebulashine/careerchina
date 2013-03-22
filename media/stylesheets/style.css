@@ -4,7 +4,12 @@ contact: contact.pordesign@gmail.com
 - */
 
 /* = start =============GENERAL============== */
-body {	font: 15px/150% Arial, Verdana, Helvetica, sans-serif; margin: 0; padding: 0; color: #393939; background: #fff url(../images/bg-1.jpg) 50% 0 no-repeat;}
+body {	font: 15px/150% Arial, Verdana, Helvetica, sans-serif; margin: 0; padding: 0; color: #393939; background: #fff}
+
+body.map
+{
+background: #fff url(../images/bg-1.jpg) 50% 0 no-repeat;
+}
 
 #chinese {	font: 15px/150% Adobe 黑体 Std R,华文细黑, 黑体,宋体; margin: 0; padding: 0; color: #393939; background: #fff url(../images/bg-1.jpg) 50% 0 no-repeat;}
 
@@ -712,7 +717,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
 .gallery.type-4 { margin-left: -3%; margin-left: -73px; margin-right: -40px; width: 1020px; }
 .gallery.type-4 .desc { float: left; clear: left; }
 .gallery.type-4 + .post-nav { border-top: none; }
-.gallery.type-4 > li { width: 200px; margin-right: -7px;margin-left: 45px; float: left; background: none; border-bottom: 1px solid #ffffff; }
+.gallery.type-4 > li { width: 220px; margin-right: -7px;margin-left: 100px; margin-top:50px; float: left; background: none; border-bottom: 1px solid #ffffff; }
 .gallery.type-4 > li:nth-child(3) div p { text-align: left; }
 .gallery.type-4 .desc > h4 a {font-size: 24px;color: #000000;}
 /* == HUANG Implementation */
