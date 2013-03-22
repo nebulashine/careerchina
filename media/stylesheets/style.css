@@ -61,7 +61,7 @@ form .error { background: url(../images/error.png) 100% 4px no-repeat; }
 /* = start =============STRUCTURE============== */
 #wrapper { width: 100%; float: left; overflow: hidden; position: relative;}
 
-#container { margin: 0 auto; width: 980px; padding-left:2%; padding-right:2%}
+#container { margin: 0 auto; width: 980px; border:solid; padding-left:5%; padding-right:5%}
 #container:after { display: block; visibility: hidden; content: "."; height: 0; line-height: 0; font-size: 0; clear: both; }	
 
 #header, #content {width: 100%; float: left;}
