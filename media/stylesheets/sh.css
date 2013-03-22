@@ -1,0 +1,134 @@
+/*
+ * Used for clickable button color
+ */
+.sh-blue-bg span{
+background-color: #4D94FF;
+}
+
+.sh-green-bg span{
+background-color: #66C266;
+}
+
+
+/*
+ * Used for pure color selection
+ */
+.sh-green {
+color: #66C266;
+}
+
+.sh-blue {
+color: #4D94FF;
+}
+
+
+input:focus
+{
+background-color:grey;
+}
+
+/*
+ * Menu Hover Effect Circle Button
+ * Usage:
+ * <a href="#" class="menu">Hello</a>
+ */
+.sh-menu
+{
+display:block;
+width:200px;height:200px;
+border-radius:50%; 
+border:10px double #ffffff;/*comment out this line if don't want double border, also have to change radious above*/
+font-size:20px;color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;
+}
+
+.sh-menu.double
+{
+}
+
+.sh-menu.blue
+{
+background:#4D94FF;
+}
+
+.sh-menu.green
+{
+background:#66C266;
+}
+
+.sh-menu.yellow
+{
+background:#FFD119;
+}
+
+.sh-menu:hover
+{
+color:#ccc;
+text-decoration:none;
+}
+
+.sh-menu.blue:hover
+{
+background:#3E76CC;
+}
+
+.sh-menu.green:hover
+{
+background:#529B52;
+}
+
+.sh-menu.yellow:hover
+{
+background:#E6BC16;
+}
+
+.sh-menu span
+{
+color:#ffffff;
+}
+
+
+/* 
+ * Stylish Menu Hover Effect Circle Button 
+ * Usage:
+ * <a href="#" class="stylish">Hello</a>
+ */
+.sh-stylish
+{
+display:block;
+width:100px;height:100px;
+border-radius:66px;border:4px double #ccc;
+font-size:20px;color:#666;
+line-height:100px;
+text-align:center;
+text-decoration:none;
+text-shadow:0 1px 0 #fff;
+background:#ddd
+}
+
+.sh-stylish:hover
+{
+border:4px double #bbb;
+color:#aaa;
+text-decoration:none;
+background:#e6e6e6
+}
+
+
+/* 
+ * Plain Circle With or Without Text Inside 
+ * Usage: 
+ * <div class="circle">Hello</div>
+ */
+.sh-circle
+{
+width:100px;height:100px;
+border-radius:50px;
+font-size:20px;color:#fff;
+line-height:100px;
+text-align:center;
+background:#000
+}
+
