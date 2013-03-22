@@ -441,6 +441,13 @@ p .button { margin-top: 20px; }
 .button.alignleft + .button.alignleft{ margin-left: -20px !important; margin-right: 0px !important;}
 .button.alignleft + .button.alignleft + .button.alignleft { margin-left: 10px !important; }
 
+/* HUANG Implementation */
+.button.aligncenter { float: center;  margin-right: 120px !important; margin-left: 120px;}
+.button.aligncenter + .button.aligncenter{ margin-left: -20px !important; margin-right: -20px !important;}
+.button.aligncenter + .button.aligncenter + .button.aligncenter { margin-left:15px !important; margin-right:15px}
+
+/* == HUANG Implementation */
+
 .button.wide { float: none; clear: both; margin-right: 0; }
 .button.wide[style] { margin-right: auto; margin-left: auto; }
 
@@ -459,6 +466,7 @@ p .button { margin-top: 20px; }
 .button.type-7 span { background-color: #519834} /*green*/
 .button.type-8 span { background-color: #d0b20d} /*yellow*/
 .button.type-9 span { background-color: #111} /*black*/
+.button.sh-blue-send span { background-color: #4D94FF} /*blue*/
 
 /* NEWS */
 .news,
@@ -704,7 +712,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
 .gallery.type-4 { margin-left: -3%; margin-left: -73px; margin-right: -40px; width: 1020px; }
 .gallery.type-4 .desc { float: left; clear: left; }
 .gallery.type-4 + .post-nav { border-top: none; }
-.gallery.type-4 > li { width: 470px; margin-right: -7px;margin-left: 45px; float: left; background: none; border-bottom: 1px solid #ffffff; }
+.gallery.type-4 > li { width: 200px; margin-right: -7px;margin-left: 45px; float: left; background: none; border-bottom: 1px solid #ffffff; }
 .gallery.type-4 > li:nth-child(3) div p { text-align: left; }
 .gallery.type-4 .desc > h4 a {font-size: 24px;color: #000000;}
 /* == HUANG Implementation */
