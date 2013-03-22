@@ -59,9 +59,9 @@ form .error { background: url(../images/error.png) 100% 4px no-repeat; }
 
 /* = end =============GENERAL============== */
 /* = start =============STRUCTURE============== */
-#wrapper { width: 100%; float: left; overflow: hidden; position: relative; }
+#wrapper { width: 100%; float: left; overflow: hidden; position: relative;}
 
-#container { margin: 0 auto; width: 980px;}
+#container { margin: 0 auto; width: 980px; padding-left:2%; padding-right:2%}
 #container:after { display: block; visibility: hidden; content: "."; height: 0; line-height: 0; font-size: 0; clear: both; }	
 
 #header, #content {width: 100%; float: left;}
@@ -714,7 +714,7 @@ ul.media li { float: left; margin: 17px; padding: 0;}
 .gallery.type-3 + .post-nav { border-top: none; }
 
 /* HUANG Implementation */
-.gallery.type-4 { margin-left: -3%; margin-left: -73px; margin-right: -40px; width: 1020px; }
+.gallery.type-4 { margin-left: -3%; margin-top: 50px; margin-left: -73px; margin-right: -40px; width: 1020px; }
 .gallery.type-4 .desc { float: left; clear: left; }
 .gallery.type-4 + .post-nav { border-top: none; }
 .gallery.type-4 > li { width: 220px; margin-right: -7px;margin-left: 100px; margin-top:50px; float: left; background: none; border-bottom: 1px solid #ffffff; }
