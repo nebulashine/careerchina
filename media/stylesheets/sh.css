@@ -172,6 +172,17 @@ filter:alpha(opacity=90); /* For IE8 and earlier */
 */
 }
 
+img.sh-companysearch
+{
+position:relative;
+left: 0px;
+top: -20px;
+}
+
+div.sh-companysearch-current
+{
+border:solid;
+}
 
 /* Scott Impelmentaion */
 #search input[type="text"] {

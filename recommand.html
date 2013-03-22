@@ -56,10 +56,16 @@ div.clickable { /* Containing div must have a position value */
      /*margin-left:400px;*/
      margin-top:30px;
     /*border:1px solid #00ff00;*/
-    background-color:#F5F5F5;
+    background-color:#FFFFFF;
 	font: bold 12px Arial,Helvetica,Sans-serif;
 	padding-left: 10px;
  }
+
+div.clickable:hover
+{
+background-color:#F5F5F5;
+}
+
 div.clickable a {
     width:30%;
     height:150px;
@@ -76,7 +82,6 @@ div.clickable img{
     margin-left:0px;
     width:150px;
     height:120px;
-    
 }
 div.clickable h2{
     position:absolute;
@@ -131,12 +136,17 @@ div.clickable p{
 					<p>Company's description goes to here: This is just 
 					<br>a test. click anywhere to enter company's website</p> 
 				</div> 
-				<div class="clickable">
+				<div class="clickable sh-companysearch-current">
 					<a href="http://www.google.com">Visit W3Schools.com!</a>
-					<img border="0" src="./media/images/p/logo_hor.png" alt="Pulpit rock" width="304" height="228">
-					<h2>Tencent</h2>
-					<p>Company's description goes to here: This is just
-					<br>a test. click anywhere to enter company's website</p> 
+					<img class="sh-companysearch" border="0" src="./media/images/companies_profile/tencent_penguin.jpeg" alt="Pulpit rock" width="50" height="50">
+					<h2><b>Tencent</b></h2>
+					<p>BUSINESS DEVELOPMENT 
+					<br>CORPORATE M&A 
+					<br>HUMAN RESOURCES 
+					<br>MARKETING 
+					<br>RESEARCH 
+					<br>OTHER  
+					</p> 
 				</div> 
 				<div class="clickable">
 					<a href="http://www.google.com">Visit W3Schools.com!</a>
@@ -190,8 +200,6 @@ div.clickable p{
 					<br>E-commerce 
 					<br>Online Advertising Service 
 					<br> 
-					<br>Company's long term goals, and 
-					<br>even videos clips introduce the company.</p> 
 				</div>
 			</div>	
 		</div>
